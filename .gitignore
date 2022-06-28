@@ -1,0 +1,9 @@
+#dependecies
+node_modules
+
+#production
+/build
+
+#other
+.DS_Store
+.env
