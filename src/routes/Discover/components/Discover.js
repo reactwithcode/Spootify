@@ -20,7 +20,7 @@ export default function Discover() {
 		dispatch(getNewReleases('new-releases', 'albums'));
 		dispatch(getPlaylists('featured-playlists', 'playlists'));
 		dispatch(getCategories('categories', 'categories'));
-	}, []);
+	}, [dispatch]);
 
 	return (
 		<div className="discover">
